@@ -1,0 +1,188 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ec0068"><title>Finderbd</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f7f8fa;color:#182331;font-family:Arial,"Noto Sans Bengali",sans-serif;overflow-x:hidden}.app{max-width:760px;margin:auto;padding-bottom:90px}.header{background:linear-gradient(145deg,#d90060,#f52a87);color:#fff;padding:22px 18px 26px;border-radius:0 0 32px 32px}.top{display:flex;justify-content:space-between;align-items:center;gap:10px}.brand{font-size:32px;font-weight:900}.tag{font-size:14px}.actions{display:flex;gap:8px}.action{width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#e90068;font-size:20px}.loc{margin-top:18px;background:#fff;color:#182331;border-radius:20px;padding:12px 14px;display:flex;align-items:center;gap:10px}.loc select{flex:1;border:0;background:#fff;font-weight:800;font-size:16px;outline:0}.section{margin:16px}.card{background:#fff;border:1px solid #e8edf1;border-radius:24px;box-shadow:0 7px 24px #0000000b;overflow:hidden}.pad{padding:18px}.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}.title{font-size:22px;font-weight:900}.link{border:0;background:none;color:#e90068;font-weight:900}.viewport{overflow:hidden}.track{display:flex;transition:.35s}.slide{min-width:100%;padding:16px;border:1px solid #f0dce7;border-radius:20px;background:linear-gradient(135deg,#fff4fa,#fff)}.profile{display:flex;gap:12px;align-items:center}.avatar{width:54px;height:54px;border-radius:17px;background:#ffe5f0;color:#e90068;display:flex;align-items:center;justify-content:center;font-size:27px}.name{font-size:18px;font-weight:900}.cat{font-size:14px}.meta,.skills{font-size:13px;color:#74808c}.skills{margin:13px 0}.updateViewport{overflow:hidden}.updateTrack{display:flex;transition:.35s}.updateSlide{min-width:100%;padding:18px 20px;background:linear-gradient(135deg,#fff0f6,#fff);min-height:132px;position:relative}.updateSlide b{display:block;color:#e90068;font-size:18px;margin-bottom:5px}.updateSlide span{display:block;color:#5f6871;font-size:13px;line-height:1.5;max-width:88%}.updateBadge{display:inline-block!important;background:#e90068;color:#fff!important;border-radius:999px;padding:4px 9px;font-size:10px!important;margin-bottom:8px}.photoInput{display:flex;align-items:center;gap:12px}.photoPreview{width:72px;height:72px;border-radius:18px;object-fit:cover;background:#ffe5f0;border:1px solid #f3d4e2}.status{display:inline-block;padding:6px 10px;border-radius:99px;background:#eaf9f1;color:#15945d;font-size:12px;font-weight:900}.off{background:#f0f2f4;color:#777}.dots{text-align:center;padding-top:9px}.dots i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#d5d9dd;margin:3px}.dots .on{width:21px;border-radius:8px;background:#e90068}.banner{min-height:218px;padding:22px 20px;background:linear-gradient(135deg,#db0062,#f20a78);color:#fff;position:relative;overflow:hidden}.banner h1{font-size:29px;line-height:1.25;margin:0;max-width:75%}.banner p{max-width:76%;font-size:15px;line-height:1.5}.banner button{border:0;border-radius:99px;background:#fff;color:#e90068;padding:11px 17px;font-weight:900}.vehicles{position:absolute;right:10px;bottom:12px;font-size:50px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px 7px;padding:18px 10px}.service{border:0;background:#fff;text-align:center;color:#182331;min-width:0}.ico{width:62px;height:62px;margin:auto auto 7px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;border:1px solid #edf0f4}.i1{background:#fff0f6}.i2{background:#edf5ff}.i3{background:#ecfbf1}.i4{background:#f2eeff}.i5{background:#fff5df}.i6{background:#e9fbfb}.i7{background:#fff0f6}.i8{background:#edf8f4}.sn{display:block;font-size:13px;font-weight:900;white-space:nowrap}.ss{display:block;color:#7b858d;font-size:10px;white-space:nowrap}.offer{padding:15px 16px;background:linear-gradient(90deg,#fff0f6,#fff);display:flex;align-items:center;gap:12px}.offerIcon{font-size:28px}.offer b{color:#e90068}.offer span{display:block;color:#7b858d;font-size:12px}.offer button{margin-left:auto;border:1px solid #e90068;background:#fff;color:#e90068;border-radius:99px;padding:8px 12px;font-weight:900}.routes{display:flex;gap:10px;overflow:auto}.route{min-width:170px;border:1px solid #edf0f3;border-radius:17px;padding:13px}.route b{display:block;margin-top:6px;font-size:14px}.route small{color:#7b858d}.driver{display:flex;align-items:center;gap:12px;padding:14px;background:#faf2ff}.driverIcon{font-size:32px}.driverText{min-width:0}.driverText b{font-size:16px}.driverText span{display:block;color:#7b858d;font-size:12px}.driver button{margin-left:auto;background:#e90068;color:#fff;border:0;border-radius:99px;padding:10px 13px;font-weight:900;white-space:nowrap}.panel{display:none}.panel.active{display:block}.form{padding:18px}.field{margin:10px 0}.field label{display:block;font-size:13px;font-weight:900;margin-bottom:5px}.form input,.form select,.form textarea{width:100%;padding:12px;border:1px solid #dfe4e8;border-radius:13px;font-size:15px}.form textarea{min-height:90px}.secondaryBtn{background:#eef1f4;color:#26313b;margin-top:8px}.call{display:inline-block;margin-left:8px;padding:6px 10px;border-radius:99px;background:#fff0f6;color:#e90068;font-weight:900;text-decoration:none;font-size:12px}.msg{margin-top:10px;padding:11px 12px;border-radius:12px;background:#fff1f1;color:#9b2020;font-size:13px;line-height:1.45}.verify{background:#fff3df;color:#9a5b00}.primary{width:100%;padding:13px;border:0;border-radius:13px;background:#e90068;color:#fff;font-weight:900;margin-top:8px}.result{margin-top:10px;padding:14px;border:1px solid #e8edf1;border-radius:18px}.bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(760px,100%);height:78px;background:#fff;border-top:1px solid #e8edf1;display:flex;justify-content:space-around;align-items:flex-end;padding:6px 3px 8px;z-index:5}.nav{border:0;background:#fff;color:#69737b;font-size:11px}.nav b{display:block;font-size:20px}.nav.active{color:#e90068}.book{width:60px;height:60px;margin-top:-30px;border:5px solid #fff;border-radius:50%;background:#e90068;color:#fff;font-size:24px}
+@media(max-width:390px){.brand{font-size:28px}.grid{gap:16px 4px}.ico{width:55px;height:55px}.sn{font-size:12px}.banner h1{font-size:25px}.vehicles{font-size:43px}}
+</style></head><body><div class="app">
+<header class="header"><div class="top"><div><div class="brand">Finderbd</div><div class="tag">আপনার সব যাত্রা, এক অ্যাপে</div></div><div class="actions"><button class="action">🔔</button><button class="action">👤</button></div></div><div class="loc">📍<select><option>আপনার এলাকা নির্বাচন করুন</option><option>ঢাকা</option><option>চট্টগ্রাম</option><option>রাজশাহী</option><option>খুলনা</option><option>বরিশাল</option><option>সিলেট</option><option>রংপুর</option><option>ময়মনসিংহ</option></select>⌄</div></header>
+<section id="home" class="panel active">
+<div class="section"><div class="card pad"><div class="head"><div class="title">⭐ Featured Profiles</div><button class="link">সব দেখুন →</button></div><div class="viewport"><div id="track" class="track"></div></div><div id="dots" class="dots"></div></div></div>
+<div class="section"><div class="card pad"><div class="head"><div class="title">📢 নতুন আপডেট ও অফার</div><button class="link">সব দেখুন →</button></div><div class="updateViewport"><div id="updateTrack" class="updateTrack"></div></div><div id="updateDots" class="dots"></div></div></div>
+<div class="section"><div class="card banner"><h1>নির্ভরযোগ্য সেবা<br>আপনার হাতের কাছে</h1><p>অটো, ভ্যান, কাজের মানুষ ও বিভিন্ন সেবা — এক জায়গায়</p><button onclick="show('booking')">এখনই বুক করুন →</button><div class="vehicles">🛺 🚐</div></div></div>
+<div class="section"><div class="card"><div class="grid"><button class="service" onclick="show('booking')"><span class="ico i1">🛺</span><span class="sn">অটো বুকিং</span><span class="ss">দ্রুত ও নিরাপদ</span></button><button class="service" onclick="show('booking')"><span class="ico i2">🚐</span><span class="sn">ভ্যান বুকিং</span><span class="ss">মালামাল/যাত্রী</span></button><button class="service" onclick="show('search')"><span class="ico i3">📍</span><span class="sn">রাইড হিস্ট্রি</span><span class="ss">আপনার বুকিং</span></button><button class="service" onclick="show('account')"><span class="ico i4">👛</span><span class="sn">ওয়ালেট</span><span class="ss">ব্যালেন্স দেখুন</span></button><button class="service" onclick="show('search')"><span class="ico i5">🏷️</span><span class="sn">কুপন</span><span class="ss">বিশেষ অফার</span></button><button class="service" onclick="show('search')"><span class="ico i6">📋</span><span class="sn">সেবা খুঁজুন</span><span class="ss">কাজের মানুষ</span></button><button class="service"><span class="ico i7">🎧</span><span class="sn">সাপোর্ট</span><span class="ss">সহজ সহায়তা</span></button><button class="service"><span class="ico i8">🛡️</span><span class="sn">নিরাপত্তা</span><span class="ss">আমাদের অঙ্গীকার</span></button></div></div></div>
+<div class="section"><div class="card"><div class="offer"><div class="offerIcon">📣</div><div><b>বিশেষ অফার</b><span>আজকের সেরা ডিল ও ক্যাম্পেইন</span></div><button>দেখুন →</button></div></div></div>
+<div class="section"><div class="card pad"><div class="head"><div class="title">🔥 জনপ্রিয় রুট</div><button class="link">সব দেখুন →</button></div><div class="routes"><div class="route">📍<b>পিরোজপুর সদর → ঢাকা</b><small>জনপ্রিয় রুট</small></div><div class="route">📍<b>ঢাকা → বরিশাল</b><small>জনপ্রিয় রুট</small></div><div class="route">📍<b>চট্টগ্রাম → কুমিল্লা</b><small>জনপ্রিয় রুট</small></div></div></div></div>
+<div class="section"><div class="card"><div class="driver"><div class="driverIcon">👷</div><div class="driverText"><b>আপনি কি কাজ খুঁজছেন?</b><span>নিজের কাজ ও দক্ষতার Profile তৈরি করুন</span></div><button onclick="show('profile')">প্রোফাইল হন →</button></div></div></div></section>
+<section id="search" class="panel"><div class="section"><div class="card form"><h2>🔍 কাজ ও মানুষ খুঁজুন</h2><div class="field"><label>কী খুঁজছেন?</label><input id="q" placeholder="রাজমিস্ত্রি, ইলেকট্রিশিয়ান..."></div><div class="field"><label>এলাকা</label><select id="area"><option>সব বাংলাদেশ</option><option>ঢাকা</option><option>চট্টগ্রাম</option><option>রাজশাহী</option><option>খুলনা</option><option>বরিশাল</option><option>সিলেট</option><option>রংপুর</option><option>ময়মনসিংহ</option></select></div><button class="primary" onclick="results()">খুঁজুন</button><div id="out"></div></div></div></section>
+<section id="booking" class="panel"><div class="section"><div class="card form"><h2>🚕 রাইড বুক করুন</h2><div class="field"><label>যানবাহন</label><select id="bv"><option>অটো</option><option>ভ্যান</option><option>মালামাল ভ্যান</option></select></div><div class="field"><label>কোথা থেকে</label><input id="bp"></div><div class="field"><label>কোথায়</label><input id="bd"></div><div class="field"><label>নাম</label><input id="bn"></div><div class="field"><label>মোবাইল</label><input id="bph"></div><button class="primary" onclick="book()">বুকিং দিন</button><div id="bm"></div></div></div></section>
+<section id="profile" class="panel"><div class="section"><div class="card form"><h2>👤 আপনার Profile</h2><div class="field"><label>প্রোফাইল ছবি</label><div class="photoInput"><img id="photoPreview" class="photoPreview" alt="ছবি"><input id="photo" type="file" accept="image/*" onchange="previewPhoto(this)"></div></div><div class="field"><label>নাম</label><input id="pn"></div><div class="field"><label>মোবাইল</label><input id="pp" readonly></div><div class="field"><label>📧 Gmail <b style="color:#e90068">*</b></label><input id="pe" type="email" inputmode="email" placeholder="আপনার Gmail লিখুন"><div class="meta" style="margin-top:6px">আপনার যোগাযোগের তথ্য হিসেবে সংরক্ষণ করা হবে। Gmail verification লাগবে না।</div></div><div class="field"><label>কাজ/পেশা</label><select id="pcat"><option value="">পেশা নির্বাচন করুন</option></select><input id="pc" placeholder="অন্য পেশা হলে লিখুন" style="margin-top:7px"></div><div class="field"><label>কী কী কাজ জানেন?</label><textarea id="ps"></textarea></div><div class="field"><label>এলাকা</label><input id="pa" placeholder="জেলা / উপজেলা / এলাকা"></div><button class="primary" onclick="save()">Profile তৈরি করুন</button><div id="pm"></div></div></div></section>
+<section id="account" class="panel"><div class="section"><div id="accountBox" class="card form"><h2>👤 আমার Account</h2><p>Account ও Profile এখানে পরিচালনা করুন।</p></div></div></section>
+<nav class="bottom"><button class="nav active" data-n="home" onclick="show('home')"><b>⌂</b>হোম</button><button class="nav" data-n="search" onclick="show('search')"><b>⌕</b>খুঁজুন</button><button class="book" onclick="show('booking')">📍</button><button class="nav" data-n="profile" onclick="show('profile')"><b>▣</b>আমার Profile</button><button class="nav" data-n="account" onclick="show('account')"><b>▢</b>অ্যাকাউন্ট</button></nav></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script>
+const CFG=window.FINDERBD_CONFIG||{};
+const API=String(CFG.SUPABASE_URL||'').replace(/\/$/,'');
+const KEY=CFG.SUPABASE_ANON_KEY||'';
+const sb=window.supabase.createClient(API,KEY);
+let accessToken='';
+let refreshToken='';
+let currentUser=null;
+let pendingPhone='';
+let authMode='login';
+
+async function api(path,opts={}){
+  const h=Object.assign({apikey:KEY,'Content-Type':'application/json'},opts.headers||{});
+  if(accessToken) h.Authorization='Bearer '+accessToken;
+  const r=await fetch(API+path,Object.assign({},opts,{headers:h}));
+  let data=null; try{data=await r.json()}catch{}
+  if(!r.ok) throw new Error(data?.msg||data?.message||data?.error_description||data?.error||(`HTTP ${r.status}`));
+  return {data,headers:r.headers};
+}
+function msg(el,text,ok=false){if(!el)return;el.innerHTML=`<div class="msg" style="${ok?'background:#e9fff3;color:#08753d':''}">${esc(text)}</div>`}
+function normalizeBDPhone(v){
+  let x=String(v||'').trim().replace(/[\s-]/g,'');
+  if(/^01\d{9}$/.test(x)) return '+880'+x.slice(1);
+  if(/^8801\d{9}$/.test(x)) return '+'+x;
+  if(/^\+8801\d{9}$/.test(x)) return x;
+  return '';
+}
+function phoneHint(v){return normalizeBDPhone(v)?'':'সঠিক বাংলাদেশি মোবাইল নম্বর দিন (01XXXXXXXXX)।'}
+async function syncSession(session){
+  accessToken=session?.access_token||'';
+  refreshToken=session?.refresh_token||'';
+  currentUser=session?.user||null;
+  if(accessToken)localStorage.setItem('finderbd_access_token',accessToken);else localStorage.removeItem('finderbd_access_token');
+  if(refreshToken)localStorage.setItem('finderbd_refresh_token',refreshToken);else localStorage.removeItem('finderbd_refresh_token');
+}
+async function refreshSession(){
+  try{
+    const {data}=await sb.auth.getSession();
+    await syncSession(data?.session||null);
+  }catch(e){console.error('Session error',e);await syncSession(null)}
+}
+function emailLooksValid(v){return /^[^\s@]+@gmail\.com$/i.test(String(v||'').trim())}
+function getContactGmail(){return String(currentUser?.user_metadata?.contact_email||'').trim().toLowerCase()}
+function setAuthMode(mode){authMode=mode;updateAccount()}
+
+async function sendOTP(){
+  const out=document.getElementById('am');
+  const raw=document.getElementById('phoneInput')?.value||'';
+  const phone=normalizeBDPhone(raw);
+  if(!phone){msg(out,phoneHint(raw));return}
+  const btn=document.getElementById('sendOtpBtn');
+  if(btn){btn.disabled=true;btn.textContent='OTP পাঠানো হচ্ছে...'}
+  msg(out,'⏳ OTP পাঠানো হচ্ছে...');
+  try{
+    const {error}=await sb.auth.signInWithOtp({
+      phone,
+      options:{
+        channel:'sms',
+        ...(authMode==='login'?{shouldCreateUser:false}:{})
+      }
+    });
+    if(error)throw error;
+    pendingPhone=phone;
+    const box=document.getElementById('otpBox');
+    if(box)box.style.display='block';
+    const input=document.getElementById('phoneInput');
+    if(input)input.disabled=true;
+    msg(out,'✅ OTP পাঠানো হয়েছে। SMS-এ পাওয়া ৬ সংখ্যার কোড দিন।',true);
+  }catch(e){
+    console.error('OTP error:',e);
+    pendingPhone='';
+    const text=authMode==='login'
+      ? '❌ এই মোবাইল নম্বর দিয়ে Account পাওয়া যায়নি, অথবা OTP পাঠাতে সমস্যা হয়েছে। আগে Register করুন বা কিছুক্ষণ পরে চেষ্টা করুন।'
+      : '❌ OTP পাঠানো যায়নি: '+(e.message||'অজানা সমস্যা');
+    msg(out,text);
+  }finally{
+    if(btn){btn.disabled=false;btn.textContent=authMode==='login'?'Login-এর OTP পাঠান':'Register-এর OTP পাঠান'}
+  }
+}
+async function verifyOTP(){
+  const out=document.getElementById('am');
+  const token=(document.getElementById('otpInput')?.value||'').trim();
+  if(!pendingPhone){msg(out,'আগে মোবাইল নম্বরে OTP পাঠান।');return}
+  if(!/^\d{6}$/.test(token)){msg(out,'৬ সংখ্যার OTP দিন।');return}
+  try{
+    msg(out,'⏳ OTP যাচাই করা হচ্ছে...');
+    const {data,error}=await sb.auth.verifyOtp({phone:pendingPhone,token,type:'sms'});
+    if(error)throw error;
+    await syncSession(data?.session||null);
+    pendingPhone='';
+    msg(out,authMode==='register'?'✅ Account তৈরি হয়েছে। এখন Profile Setup করুন।':'✅ Login সফল হয়েছে।',true);
+    updateAccount();
+    setTimeout(()=>{show('profile');loadMyProfile()},300);
+  }catch(e){
+    console.error('Verify error:',e);
+    msg(out,'❌ OTP সঠিক নয় অথবা মেয়াদ শেষ হয়েছে: '+(e.message||'অজানা সমস্যা'));
+  }
+}
+async function resendOTP(){
+  if(!pendingPhone)return msg(document.getElementById('am'),'আগে OTP পাঠান।');
+  const {error}=await sb.auth.signInWithOtp({phone:pendingPhone,options:{channel:'sms',...(authMode==='login'?{shouldCreateUser:false}:{})}});
+  if(error)msg(document.getElementById('am'),'নতুন OTP পাঠানো যায়নি: '+error.message);
+  else msg(document.getElementById('am'),'✅ নতুন OTP পাঠানো হয়েছে।',true);
+}
+function changePhone(){pendingPhone='';updateAccount()}
+async function signOut(){await sb.auth.signOut();await syncSession(null);pendingPhone='';updateAccount();show('home')}
+function updateAccount(){
+  const box=document.getElementById('accountBox');if(!box)return;
+  if(currentUser){
+    const phone=currentUser.phone||'';const email=getContactGmail()||'Gmail যোগ করা হয়নি';
+    box.innerHTML=`<h2>👤 আমার Account</h2><p class="muted">📱 ${esc(phone||'মোবাইল ভেরিফাইড')}</p><p class="muted">📧 ${esc(email)}</p><div class="result" style="background:#fff7fb"><b>✅ Account সক্রিয়</b><div class="meta" style="margin-top:5px">আপনি Profile ও protected service ব্যবহার করতে পারবেন।</div></div><button class="primary" onclick="show('profile')">Profile তৈরি / সম্পাদনা</button><button class="primary secondaryBtn" onclick="signOut()">Logout</button>`;
+  }else{
+    box.innerHTML=`<h2>🔐 Finderbd Account</h2><div style="display:flex;gap:8px;margin:12px 0"><button class="primary" style="margin:0;opacity:${authMode==='login'?1:.55}" onclick="setAuthMode('login')">Login</button><button class="primary" style="margin:0;opacity:${authMode==='register'?1:.55}" onclick="setAuthMode('register')">Register</button></div><p class="muted">${authMode==='login'?'আগের Account থাকলে মোবাইল নম্বর দিয়ে OTP দিয়ে Login করুন। নতুন নম্বর হলে Register করুন।':'নতুন Account তৈরি করতে মোবাইল নম্বর দিয়ে OTP যাচাই করুন।'}</p><div class="field"><label>মোবাইল নম্বর</label><input id="phoneInput" type="tel" inputmode="numeric" maxlength="14" placeholder="01XXXXXXXXX"></div><button id="sendOtpBtn" class="primary" onclick="sendOTP()">${authMode==='login'?'Login-এর OTP পাঠান':'Register-এর OTP পাঠান'}</button><div id="otpBox" style="display:none"><div class="field"><label>OTP কোড</label><input id="otpInput" type="text" inputmode="numeric" maxlength="6" placeholder="৬ সংখ্যার OTP"></div><button class="primary" onclick="verifyOTP()">OTP যাচাই করুন</button><button class="primary secondaryBtn" onclick="resendOTP()">আবার OTP পাঠান</button><button class="link" style="margin-top:10px" onclick="changePhone()">অন্য নম্বর ব্যবহার করুন</button></div><div id="am"></div>`;
+  }
+}
+
+let profileCache=[];let updateCache=[];let categoryCache=[];let bannerCache=[];
+async function loadHomeData(){
+  try{
+    const [f,u,c,b]=await Promise.all([
+      api('/rest/v1/featured_profiles?select=id,category,area,starts_at,expires_at,profiles(full_name,profession,skills,district,upazila,area,phone,photo_url,is_online)&is_active=eq.true&order=sort_order.asc&limit=20'),
+      api('/rest/v1/announcements?select=*&is_active=eq.true&order=sort_order.asc&limit=20'),
+      api('/rest/v1/categories?select=*&is_active=eq.true&order=sort_order.asc&limit=100'),
+      api('/rest/v1/banners?select=*&is_active=eq.true&order=sort_order.asc&limit=20')
+    ]);
+    updateCache=u.data||[];categoryCache=c.data||[];bannerCache=b.data||[];renderBanners();
+    const now=Date.now(); profileCache=(f.data||[]).filter(x=>x.expires_at&&new Date(x.expires_at).getTime()>now).map(x=>({name:x.profiles?.full_name||'',cat:x.profiles?.profession||x.category||'',skills:Array.isArray(x.profiles?.skills)?x.profiles.skills.join(', '):'',area:x.profiles?.area||x.area||x.profiles?.district||'',online:!!x.profiles?.is_online,photo:x.profiles?.photo_url||'',profile_id:x.profiles?.id}));
+    featured();renderUpdates();renderCategoryOptions();
+    if(!profileCache.length){
+      const r=await api('/rest/v1/profiles?select=id,full_name,profession,skills,district,upazila,area,phone,photo_url,is_online&is_approved=eq.true&is_blocked=eq.false&order=created_at.desc&limit=20');
+      profileCache=(r.data||[]).map(x=>({name:x.full_name,cat:x.profession,skills:Array.isArray(x.skills)?x.skills.join(', '):'',area:x.area||x.district||'',online:!!x.is_online,photo:x.photo_url||'',profile_id:x.id,phone:x.phone||''}));featured();
+    }
+  }catch(e){console.error(e);renderUpdates();featured();}
+}
+async function loadProfiles(){
+  const s=(document.getElementById('q')?.value||'').trim();
+  const area=(document.getElementById('area')?.value||'').trim();
+  const params=['select=id,full_name,profession,skills,district,upazila,area,phone,photo_url,is_online','is_approved=eq.true','is_blocked=eq.false','order=created_at.desc','limit=50'];
+  if(s)params.push(`or=(full_name.ilike.*${encodeURIComponent(s)}*,profession.ilike.*${encodeURIComponent(s)}*,area.ilike.*${encodeURIComponent(s)}*)`);
+  if(area&&area!=='সব বাংলাদেশ')params.push(`or=(division.eq.${encodeURIComponent(area)},district.eq.${encodeURIComponent(area)},area.ilike.*${encodeURIComponent(area)}*)`);
+  try{const r=await api('/rest/v1/profiles?'+params.join('&'));const a=r.data||[];out.innerHTML=a.map(x=>profileResult(x)).join('')||'<p>কোনো approved Profile পাওয়া যায়নি।</p>';}catch(e){out.innerHTML='<div class="msg">ডেটা লোড হয়নি: '+esc(e.message)+'</div>';}}
+function profileResult(x){return `<div class="result"><div class="profile"><img class="avatar" src="${esc(x.photo_url||defaultAvatar())}" alt="ছবি"><div><div class="name">${esc(x.full_name)}</div><div class="cat">${esc(x.profession)}</div><div class="meta">📍 ${esc(x.area||x.district||'')}</div></div></div><div class="skills">${esc(Array.isArray(x.skills)?x.skills.join(', '):'')}</div><span class="status ${x.is_online?'':'off'}">${x.is_online?'🟢 Online':'⚪ Offline'}</span>${x.phone?`<a class="call" href="tel:${esc(x.phone)}">📞 যোগাযোগ</a>`:''}</div>`}
+function defaultAvatar(){return 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2254%22 height=%2254%22%3E%3Crect width=%22100%25%22 height=%22100%25%22 rx=%2217%22 fill=%22%23ffe5f0%22/%3E%3Ctext x=%2250%25%22 y=%2258%25%22 text-anchor=%22middle%22 font-size=%2227%22%3E%F0%9F%91%A4%3C/text%3E%3C/svg%3E'}
+function renderCategoryOptions(){const el=document.getElementById('pcat');if(!el)return;el.innerHTML='<option value="">পেশা নির্বাচন করুন</option>'+categoryCache.map(c=>`<option value="${esc(c.name)}">${esc(c.icon||'🛠️')} ${esc(c.name)}</option>`).join('');}
+function previewPhoto(input){const f=input.files&&input.files[0];if(!f)return;const r=new FileReader();r.onload=()=>photoPreview.src=r.result;r.readAsDataURL(f)}
+function renderBanners(){
+  const hero=document.getElementById('hero'); if(!hero)return;
+  const a=bannerCache||[];
+  if(!a.length)return;
+  let i=0;
+  const draw=()=>{const x=a[i]; hero.innerHTML=`<h1>${esc(x.title||'নির্ভরযোগ্য সেবা আপনার হাতের কাছে')}</h1><p>${esc(x.subtitle||'অটো, ভ্যান, কাজের মানুষ ও বিভিন্ন সেবা — এক জায়গায়')}</p>${x.button_text?`<button onclick="${x.button_url?`location.href='${esc(x.button_url)}'`:'show(\'booking\')'}">${esc(x.button_text)}</button>`:''}${x.image_url?`<img src="${esc(x.image_url)}" style="position:absolute;right:10px;bottom:10px;max-width:48%;max-height:90%;object-fit:contain;border-radius:18px" alt="banner">`:'<div class="vehicles">🛺 🚐</div>'}`};
+  draw();
+  if(a.length>1)setInterval(()=>{i=(i+1)%a.length;draw()},1000);
+}
+function renderUpdates(){const a=updateCache||[];updateTrack.innerHTML=a.map(x=>`<div class="updateSlide"><span class="updateBadge">${esc(x.category||'আপডেট')}</span><b>${esc(x.title)}</b><span>${esc(x.body||'')}</span></div>`).join('')||'<div class="updateSlide"><b>Finderbd</b><span>নতুন আপডেট ও অফার এখানে দেখা যাবে।</span></div>';updateDots.innerHTML=a.map((_,i)=>`<i class="${i?'':'on'}"></i>`).join('')}
+function pc(x){return `<div class="slide"><div class="profile"><img class="avatar" src="${esc(x.photo||defaultAvatar())}" alt="ছবি"><div><div class="name">${esc(x.name)}</div><div class="cat">${esc(x.cat)}</div><div class="meta">📍 ${esc(x.area)}</div></div></div><div class="skills">${esc(x.skills)}</div><span class="status ${x.online?'':'off'}">${x.online?'🟢 Online':'⚪ Offline'}</span></div>`}
+let pos=0;function featured(){let a=profileCache||[];track.innerHTML=a.map(pc).join('')||'<div class="slide"><b>কোনো Featured Profile নেই</b><div class="meta">Admin থেকে Featured করলে এখানে দেখা যাবে।</div></div>';dots.innerHTML=a.map((_,i)=>`<i class="${i?'':'on'}"></i>`).join('');pos=0;track.style.transform='translateX(0)'}
+function show(id){if(['booking','profile'].includes(id)&&!currentUser){updateAccount();id='account';}document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav').forEach(x=>x.classList.toggle('active',x.dataset.n===id));if(id==='home'){featured();loadHomeData()}if(id==='profile')loadMyProfile();if(id==='account')updateAccount();scrollTo(0,0)}
+function results(){loadProfiles()}
+async function loadMyProfile(){if(!currentUser){show('account');msg(document.getElementById('pm'),'আগে Account থেকে Login/Register করুন।');return;}try{pp.value=currentUser.phone||'';document.getElementById('pe').value=getContactGmail();const r=await api('/rest/v1/profiles?select=*&user_id=eq.'+encodeURIComponent(currentUser.id)+'&limit=1');const x=r.data?.[0];if(x){document.getElementById('pe').value=x.email||getContactGmail();pn.value=x.full_name||'';pp.value=x.phone||currentUser.phone||'';document.getElementById('pcat').value=x.profession||'';ps.value=Array.isArray(x.skills)?x.skills.join(', '):'';pa.value=x.area||x.district||'';if(x.photo_url)photoPreview.src=x.photo_url;document.getElementById('profileId').value=x.id;}}catch(e){msg(document.getElementById('pm'),'Profile লোড হয়নি: '+e.message)}}
+async function uploadPhoto(){const f=document.getElementById('photo').files?.[0];if(!f||!currentUser)return null;const path=currentUser.id+'/'+Date.now()+'-'+f.name.replace(/[^a-zA-Z0-9._-]/g,'_');const r=await fetch(API+'/storage/v1/object/profile-photos/'+path,{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+accessToken,'x-upsert':'true','Content-Type':f.type||'application/octet-stream'},body:f});if(!r.ok)throw new Error(await r.text());return API+'/storage/v1/object/public/profile-photos/'+path}
+async function save(){if(!currentUser){show('account');msg(document.getElementById('am'),'Profile তৈরি করতে আগে Login/Register করুন।');return;}let email=String(document.getElementById('pe').value||'').trim().toLowerCase();if(!emailLooksValid(email)){msg(document.getElementById('pm'),'সঠিক Gmail address দিন (যেমন: name@gmail.com)।');return;}let name=pn.value.trim(),profession=document.getElementById('pcat').value||document.getElementById('pc').value.trim(),skills=ps.value.split(',').map(x=>x.trim()).filter(Boolean),area=pa.value.trim(),phone=currentUser.phone||pp.value.trim();if(!name||!profession||!skills.length||!area||!phone){msg(document.getElementById('pm'),'নাম, ফোন, পেশা, দক্ষতা ও এলাকা পূরণ করুন।');return;}try{let photo_url=null;if(document.getElementById('photo').files?.[0])photo_url=await uploadPhoto();const existing=document.getElementById('profileId').value;const obj={full_name:name,email,phone,profession,skills,area,is_online:true};if(photo_url)obj.photo_url=photo_url;let path='/rest/v1/profiles',method='POST';if(existing){path+='?id=eq.'+encodeURIComponent(existing);method='PATCH';}else obj.user_id=currentUser.id;await api(path,{method,headers:{Prefer:'return=representation'},body:JSON.stringify(obj)});msg(document.getElementById('pm'),'✅ Profile Supabase-এ সংরক্ষণ হয়েছে। Admin approval-এর পর সবার Search-এ দেখা যাবে।',true);loadHomeData();}catch(e){msg(document.getElementById('pm'),'Profile save হয়নি: '+e.message)}}
+async function book(){if(!currentUser){show('account');msg(document.getElementById('am'),'Booking করতে আগে Login/Register করুন।');return;}if(!bp.value||!bd.value||!bn.value||!bph.value){msg(document.getElementById('bm'),'সব তথ্য পূরণ করুন।');return;}try{await api('/rest/v1/bookings',{method:'POST',headers:{Prefer:'return=minimal'},body:JSON.stringify({customer_user_id:currentUser.id,vehicle_type:bv.value,pickup:bp.value.trim(),destination:bd.value.trim(),customer_name:bn.value.trim(),customer_phone:bph.value.trim(),status:'new'})});msg(document.getElementById('bm'),'✅ Booking সফলভাবে নেওয়া হয়েছে। Admin Panel-এ দেখা যাবে।',true);}catch(e){msg(document.getElementById('bm'),'Booking হয়নি: '+e.message)}}
+document.getElementById('profile').querySelector('.form').insertAdjacentHTML('afterbegin','<input id="profileId" type="hidden">');
+refreshSession().then(()=>{updateAccount();loadHomeData();});
+let upos=0;setInterval(()=>{let a=updateCache||[];if(a.length<2)return;upos=(upos+1)%a.length;updateTrack.style.transform=`translateX(-${upos*100}%)`;[...updateDots.children].forEach((d,i)=>d.classList.toggle('on',i===upos))},1000);
+let fpos=0;setInterval(()=>{let a=profileCache||[];if(a.length<2)return;fpos=(fpos+1)%a.length;track.style.transform=`translateX(-${fpos*100}%)`;[...dots.children].forEach((d,i)=>d.classList.toggle('on',i===fpos))},1000);
+</script></body></html>
